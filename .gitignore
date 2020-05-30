@@ -85,7 +85,6 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -115,7 +114,6 @@ venv_py2/
 # IDE Specific directories
 .DS_Store
 .idea
-.vscode/
 
 # TensorLayer Directories
 checkpoints
@@ -129,3 +127,5 @@ update_tl.py
 # Data Files and ByteCode files
 *.gz
 *.npz
+config.bat
+node_modules
